@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="homework.js"></script>
+    <title>My personal web site</title>
+</head>
+<body>
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                            
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> 
+                        <a class="navbar-brand" href="#">Brand</a>
+    
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Homepage <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="bio.html">Bio</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="contacts.html">Contacts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="register.html">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="q">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row main-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    "World faces worst decline since 1930s depression"
+                                </p>
+                                <footer class="blockquote-footer">
+                                    Crisis like no other <cite>(BBC)</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="col-md-8">
+                            <img class="Image" src="https://ichef.bbci.co.uk/news/320/cpsprodpb/59EE/production/_111722032_11cf6c75-3af3-4cb6-ad45-b19461fda7ea.jpg" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="Image" src="data:image/jpeg;base64,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" />
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Zoos that should have been crowded in the sunny Easter holidays are now hard-up and asking for donations, as the coronavirus lockdown bites.
+                                </p>
+                                <footer class="blockquote-footer">
+                                     <cite>(BBC)</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="Image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCCe_7j1xErNRvhZJ73BZAlLNDm7vW-W4asnt7X5h4uDoAiNji&usqp=CAU" />
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    A 99-year-old army veteran who has raised more than £3m to help the NHS in the fight against Covid-19 has vowed to keep going even though he has smashed his original £1,000 target.
+                                </p>
+                                <footer class="blockquote-footer">
+                                     <cite>(BBC)</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <img class="Image" src="https://image.shutterstock.com/image-vector/education-science-concept-banner-chemistry-260nw-772020961.jpg" />
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    A vast store of DNA is being used to study why the severity of symptoms for coronavirus varies so much. 
+                                </p>
+                                <footer class="blockquote-footer">
+                                     <cite>(BBC)</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </div>
+</body>
+</html>
